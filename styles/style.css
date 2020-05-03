@@ -14,7 +14,7 @@
   background-color: #f2f2f2;
 }
 
-.logo-place {
+.logo {
   width: 183px;
   height: 32px;
   top: 30px;
@@ -105,14 +105,14 @@
   text-align: justify;
 }
 
-.top-text {
-  margin-top: 0;
-}
-
-.two-columns__span-accent{
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
+}
+
+p:first-child {
+  margin-top: 0;
 }
 
 .digits {
@@ -154,12 +154,15 @@
 .table__cell {
   width: 250px;
   margin-top: 60px;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin-bottom: 20px;
   margin-top: 0;
 }
 
@@ -167,13 +170,12 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 0;
-  list-style: none;
-  padding-left: 0;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-.table__text_align {
-  margin-top: 20px;
+p:last-child {
+  margin-bottom: 0;
 }
 
 .feynman {
@@ -234,30 +236,31 @@
   overflow: hidden;
 }
 
-.title_theme_dark {
+.section-title_theme_dark {
   color: #ffffff;
   margin-top: 90px;
 }
 
-.subtitle_theme_dark {
+.section-subtitle_theme_dark {
   color: #ffffff;
 }
 
 .table_theme_dark {
-  width: 1300px;
   margin-bottom: 90px;
   z-index: 1;
 }
 
 .table__cell_theme_dark {
   margin-top: 80px;
+  width: 19%;
+  /* задал 19%, т.к. у teble__cell width 250px, чтобы уместить */
 }
 
-.heading_theme_dark {
+.table__heading_theme_dark {
   color: #ffffff;
 }
 
-.text_theme_dark {
+.table__text_theme_dark {
   color: #ffffff;
 }
 
@@ -283,6 +286,10 @@
   margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
+}
+
+.footer__column {
+
 }
 
 .footer__column_content_copyright {
