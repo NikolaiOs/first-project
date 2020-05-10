@@ -1,0 +1,15 @@
+@import url(../../rotation/rotation.css);
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  background-image: url(../../../images/kaufman-triangle.svg);
+  position: absolute;
+  right: -210px;
+  top: 0;
+  animation: rotation;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  background-position-x: right;
+}

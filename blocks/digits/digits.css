@@ -1,0 +1,12 @@
+@import url(./__title/section-title.css);
+@import url(./__subtitle/section-subtitle.css);
+@import url(./__table/table.css);
+@import url(./__cell/table__cell.css);
+@import url(./__heading/table__heading.css);
+@import url(./__text/table__text.css);
+
+.digits {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

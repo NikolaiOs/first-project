@@ -1,0 +1,5 @@
+.table__cell_theme_dark {
+  margin-top: 80px;
+  width: 19%;
+  /* задал 19%, т.к. у teble__cell width 250px, чтобы уместить */
+}
