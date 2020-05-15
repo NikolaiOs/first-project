@@ -1,9 +1,9 @@
-@import url(./_title/section-title_theme_dark.css);
-@import url(./_subtitle/section-subtitle_theme_dark.css);
-@import url(./_table/table_theme_dark.css);
-@import url(./_cell/table__cell_theme_dark.css);
-@import url(./_heading/table__heading_theme_dark.css);
-@import url(./_text/table__text_theme_dark.css);
+@import url(./_theme/section-title_theme_dark.css);
+@import url(./_theme/section-subtitle_theme_dark.css);
+@import url(./_theme/table_theme_dark.css);
+@import url(./_theme/table__cell_theme_dark.css);
+@import url(./_theme/table__heading_theme_dark.css);
+@import url(./_theme/table__text_theme_dark.css);
 @import url(./__triangle/kaufman__triangle.css);
 
 .kaufman {

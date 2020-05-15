@@ -2,3 +2,11 @@
   color: #ffffff;
   text-decoration: none;
 }
+
+.footer__column-link:hover {
+  opacity: 0.50;
+  transition-property: opacity;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+  transition-delay: 0.1s;
+}
