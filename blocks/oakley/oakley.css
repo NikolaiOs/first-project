@@ -5,3 +5,7 @@
   background-color: #f2f2f2;
   margin-top: -50px;
 }
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
+}

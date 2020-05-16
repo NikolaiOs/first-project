@@ -4,6 +4,6 @@
   justify-content: center;
 }
 
-p:first-child {
+.two-columns__paragraph:first-child {
   margin-top: 0;
 }
