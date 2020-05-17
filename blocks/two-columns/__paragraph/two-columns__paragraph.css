@@ -6,3 +6,11 @@
   font-weight: normal;
   text-align: justify;
 }
+
+.two-columns__paragraph:first-child {
+  margin-top: 0;
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
+}

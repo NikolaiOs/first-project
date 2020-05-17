@@ -3,7 +3,3 @@
   display: flex;
   justify-content: center;
 }
-
-.two-columns__paragraph:first-child {
-  margin-top: 0;
-}
